@@ -10,7 +10,9 @@ An npm package for training purposes using TypeScript to build for both the ECMA
 
 ### Testing
 
-Run `npm test` in your terminal from the root folder of the project
+Run `npm test` in your terminal from the root folder of the project.
+
+After the first run if new external api recording are needed delete `tests/fixtures` folder.
 
 ## Contributing
 Fork and create pull request.

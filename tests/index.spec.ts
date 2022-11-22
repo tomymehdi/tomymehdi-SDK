@@ -1,8 +1,14 @@
 import 'mocha';
 import { assert } from 'chai';
 
-import { helloWorld, goodBye } from '../index';
-import npmPackage from '../index';
+// In case we need to mock external api calls
+import nock from 'nock'
+// In case we need to stub functions
+import sinon from 'sinon'
+
+
+import { helloWorld, goodBye, externalRESTApi, externalRESTApi2 } from '../src/index';
+import npmPackage from '../src/index';
 
 describe('NPM Package', () => {
   it('should be an object', () => {
@@ -36,4 +42,48 @@ describe('Goodbye Function', () => {
     const actual = goodBye();
     assert.equal(actual, expected);
   });
+});
+
+import path from 'path'
+describe('External REST API Call', () => {
+  before(() => {
+    nock.back.fixtures = path.join(`${__dirname}`, 'fixtures');
+  });
+
+  after(async () => {
+    nock.restore();
+  });
+
+  beforeEach(() => {
+    nock.back.setMode('record');
+  });
+
+  afterEach(async () => {
+    nock.back.setMode('wild');
+    nock.cleanAll();
+  });
+
+  it('should be a function', () => {
+    assert.isFunction(externalRESTApi);
+  });
+
+  it('should return an id', async () => {
+    const { nockDone } = await nock.back("search_for_project.json");
+    
+    const actual = await externalRESTApi();
+    assert.equal(actual.status, 200);
+    
+    nockDone();
+  });
+
+  it('should return an doc', async () => {
+    const { nockDone } = await nock.back("search_for_project2.json");
+
+    const actual = await externalRESTApi2();
+    assert.equal(actual.status, 200);
+
+    nockDone();
+  });
+
+
 });
