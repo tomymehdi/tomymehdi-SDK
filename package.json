@@ -1,6 +1,6 @@
 {
   "name": "@tomymehdi-itba/sdk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An npm package for training purposes using TypeScript to build for both the ECMAScript Module format (i.e. ESM or ES Module) and CommonJS Module format. It can be used in Node.js and browser applications.",
   "exports": {
     ".": {
