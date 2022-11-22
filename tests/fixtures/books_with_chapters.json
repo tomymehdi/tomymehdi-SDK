@@ -1,0 +1,498 @@
+[
+    {
+        "scope": "https://the-one-api.dev:443",
+        "method": "GET",
+        "path": "/v2/book",
+        "body": "",
+        "status": 200,
+        "response": {
+            "docs": [
+                {
+                    "_id": "5cf5805fb53e011a64671582",
+                    "name": "The Fellowship Of The Ring"
+                },
+                {
+                    "_id": "5cf58077b53e011a64671583",
+                    "name": "The Two Towers"
+                },
+                {
+                    "_id": "5cf58080b53e011a64671584",
+                    "name": "The Return Of The King"
+                }
+            ],
+            "total": 3,
+            "limit": 1000,
+            "offset": 0,
+            "page": 1,
+            "pages": 1
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 22 Nov 2022 22:10:48 GMT",
+            "Server",
+            "Apache/2.4.41 (Ubuntu)",
+            "Content-Security-Policy",
+            "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "Expect-CT",
+            "max-age=0",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "X-Download-Options",
+            "noopen",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Permitted-Cross-Domain-Policies",
+            "none",
+            "Referrer-Policy",
+            "no-referrer",
+            "X-XSS-Protection",
+            "0",
+            "Access-Control-Allow-Origin",
+            "*",
+            "X-RateLimit-Limit",
+            "100",
+            "X-RateLimit-Remaining",
+            "39",
+            "X-RateLimit-Reset",
+            "1669155059",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "260",
+            "ETag",
+            "W/\"104-jNjsLom97rEwIuAO0gi264FS+6M\"",
+            "Connection",
+            "close"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://the-one-api.dev:443",
+        "method": "GET",
+        "path": "/v2/book/5cf5805fb53e011a64671582/chapter",
+        "body": "",
+        "status": 200,
+        "response": {
+            "docs": [
+                {
+                    "_id": "6091b6d6d58360f988133b8b",
+                    "chapterName": "A Long-expected Party"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b8c",
+                    "chapterName": "The Shadow of the Past"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b8d",
+                    "chapterName": "Three is Company"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b8e",
+                    "chapterName": "A Short Cut to Mushrooms"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b8f",
+                    "chapterName": "A Conspiracy Unmasked"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b90",
+                    "chapterName": "The Old Forest"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b91",
+                    "chapterName": "In the House of Tom Bombadil"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b92",
+                    "chapterName": "Fog on the Barrow-Downs"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b93",
+                    "chapterName": "At the Sign of The Prancing Pony"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b94",
+                    "chapterName": "Strider"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b95",
+                    "chapterName": "A Knife in the Dark"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b96",
+                    "chapterName": "Flight to the Ford"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b97",
+                    "chapterName": "Many Meetings"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b98",
+                    "chapterName": "The Council of Elrond"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b99",
+                    "chapterName": "The Ring Goes South"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b9a",
+                    "chapterName": "A Journey in the Dark"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b9b",
+                    "chapterName": "The Bridge of Khazad-dûm"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b9c",
+                    "chapterName": "Lothlórien"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b9d",
+                    "chapterName": "The Mirror of Galadriel"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b9e",
+                    "chapterName": "Farewell to Lórien"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133b9f",
+                    "chapterName": "The Great River"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133ba0",
+                    "chapterName": "The Breaking of the Fellowship"
+                }
+            ],
+            "total": 22,
+            "limit": 1000,
+            "offset": 0,
+            "page": 1,
+            "pages": 1
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 22 Nov 2022 22:10:49 GMT",
+            "Server",
+            "Apache/2.4.41 (Ubuntu)",
+            "Content-Security-Policy",
+            "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "Expect-CT",
+            "max-age=0",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "X-Download-Options",
+            "noopen",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Permitted-Cross-Domain-Policies",
+            "none",
+            "Referrer-Policy",
+            "no-referrer",
+            "X-XSS-Protection",
+            "0",
+            "Access-Control-Allow-Origin",
+            "*",
+            "X-RateLimit-Limit",
+            "100",
+            "X-RateLimit-Remaining",
+            "38",
+            "X-RateLimit-Reset",
+            "1669155059",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "1653",
+            "ETag",
+            "W/\"675-iXg80ZsIdvczXhUXR6iRuH0S8jY\"",
+            "Connection",
+            "close"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://the-one-api.dev:443",
+        "method": "GET",
+        "path": "/v2/book/5cf58080b53e011a64671584/chapter",
+        "body": "",
+        "status": 200,
+        "response": {
+            "docs": [
+                {
+                    "_id": "6091b6d6d58360f988133bb6",
+                    "chapterName": "Minas Tirith"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bb7",
+                    "chapterName": "The Passing of the Grey Company"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bb8",
+                    "chapterName": "The Muster of Rohan"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bb9",
+                    "chapterName": "The Siege of Gondor"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bba",
+                    "chapterName": "The Ride of the Rohirrim"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bbb",
+                    "chapterName": "The Battle of the Pelennor Fields"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bbc",
+                    "chapterName": "The Pyre of Denethor"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bbd",
+                    "chapterName": "The Houses of Healing"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bbe",
+                    "chapterName": "The Last Debate"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bbf",
+                    "chapterName": "The Black Gate Opens"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bc0",
+                    "chapterName": "The Tower of Cirith Ungol"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bc1",
+                    "chapterName": "The Land of Shadow"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bc2",
+                    "chapterName": "Mount Doom"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bc3",
+                    "chapterName": "The Field of Cormallen"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bc4",
+                    "chapterName": "The Steward and the King"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bc5",
+                    "chapterName": "Many Partings"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bc6",
+                    "chapterName": "Homeward Bound"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bc7",
+                    "chapterName": "The Scouring of the Shire"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bc8",
+                    "chapterName": "The Grey Havens"
+                }
+            ],
+            "total": 19,
+            "limit": 1000,
+            "offset": 0,
+            "page": 1,
+            "pages": 1
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 22 Nov 2022 22:10:49 GMT",
+            "Server",
+            "Apache/2.4.41 (Ubuntu)",
+            "Content-Security-Policy",
+            "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "Expect-CT",
+            "max-age=0",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "X-Download-Options",
+            "noopen",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Permitted-Cross-Domain-Policies",
+            "none",
+            "Referrer-Policy",
+            "no-referrer",
+            "X-XSS-Protection",
+            "0",
+            "Access-Control-Allow-Origin",
+            "*",
+            "X-RateLimit-Limit",
+            "100",
+            "X-RateLimit-Remaining",
+            "37",
+            "X-RateLimit-Reset",
+            "1669155059",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "1432",
+            "ETag",
+            "W/\"598-11idL6r0cvK5mIjI4RqLhD9ZaXw\"",
+            "Connection",
+            "close"
+        ],
+        "responseIsBinary": false
+    },
+    {
+        "scope": "https://the-one-api.dev:443",
+        "method": "GET",
+        "path": "/v2/book/5cf58077b53e011a64671583/chapter",
+        "body": "",
+        "status": 200,
+        "response": {
+            "docs": [
+                {
+                    "_id": "6091b6d6d58360f988133ba1",
+                    "chapterName": "The Departure of Boromir"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133ba2",
+                    "chapterName": "The Riders of Rohan"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133ba3",
+                    "chapterName": "The Uruk-Hai"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133ba4",
+                    "chapterName": "Treebeard"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133ba5",
+                    "chapterName": "The White Rider"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133ba6",
+                    "chapterName": "The King of the Golden Hall"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133ba7",
+                    "chapterName": "Helm's Deep"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133ba8",
+                    "chapterName": "The Road to Isengard"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133ba9",
+                    "chapterName": "Flotsam and Jetsam"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133baa",
+                    "chapterName": "The Voice of Saruman"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bab",
+                    "chapterName": "The Palantir"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bac",
+                    "chapterName": "The Taming of Smeagol"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bad",
+                    "chapterName": "The Passage of the Marshes"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bae",
+                    "chapterName": "The Black Gate is Closed"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133baf",
+                    "chapterName": "Of Herbs and Stewed Rabbit"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bb0",
+                    "chapterName": "The Window on the West"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bb1",
+                    "chapterName": "The Forbidden Pool"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bb2",
+                    "chapterName": "Journey to the Cross-roads"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bb3",
+                    "chapterName": "The Stairs of Cirith Ungol"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bb4",
+                    "chapterName": "Shelob's Lair"
+                },
+                {
+                    "_id": "6091b6d6d58360f988133bb5",
+                    "chapterName": "The Choices of Master Samwise"
+                }
+            ],
+            "total": 21,
+            "limit": 1000,
+            "offset": 0,
+            "page": 1,
+            "pages": 1
+        },
+        "rawHeaders": [
+            "Date",
+            "Tue, 22 Nov 2022 22:10:49 GMT",
+            "Server",
+            "Apache/2.4.41 (Ubuntu)",
+            "Content-Security-Policy",
+            "default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests",
+            "X-DNS-Prefetch-Control",
+            "off",
+            "Expect-CT",
+            "max-age=0",
+            "X-Frame-Options",
+            "SAMEORIGIN",
+            "Strict-Transport-Security",
+            "max-age=15552000; includeSubDomains",
+            "X-Download-Options",
+            "noopen",
+            "X-Content-Type-Options",
+            "nosniff",
+            "X-Permitted-Cross-Domain-Policies",
+            "none",
+            "Referrer-Policy",
+            "no-referrer",
+            "X-XSS-Protection",
+            "0",
+            "Access-Control-Allow-Origin",
+            "*",
+            "X-RateLimit-Limit",
+            "100",
+            "X-RateLimit-Remaining",
+            "36",
+            "X-RateLimit-Reset",
+            "1669155059",
+            "Content-Type",
+            "application/json; charset=utf-8",
+            "Content-Length",
+            "1574",
+            "ETag",
+            "W/\"626-0wo/7bAIHS748oNK/wb5fLzyeuQ\"",
+            "Connection",
+            "close"
+        ],
+        "responseIsBinary": false
+    }
+]

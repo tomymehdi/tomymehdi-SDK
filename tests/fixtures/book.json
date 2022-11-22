@@ -2,7 +2,7 @@
     {
         "scope": "https://the-one-api.dev:443",
         "method": "GET",
-        "path": "/v2/book",
+        "path": "/v2/book/5cf5805fb53e011a64671582",
         "body": "",
         "status": 200,
         "response": {
@@ -10,17 +10,9 @@
                 {
                     "_id": "5cf5805fb53e011a64671582",
                     "name": "The Fellowship Of The Ring"
-                },
-                {
-                    "_id": "5cf58077b53e011a64671583",
-                    "name": "The Two Towers"
-                },
-                {
-                    "_id": "5cf58080b53e011a64671584",
-                    "name": "The Return Of The King"
                 }
             ],
-            "total": 3,
+            "total": 1,
             "limit": 1000,
             "offset": 0,
             "page": 1,
@@ -28,7 +20,7 @@
         },
         "rawHeaders": [
             "Date",
-            "Tue, 22 Nov 2022 20:25:42 GMT",
+            "Tue, 22 Nov 2022 22:06:38 GMT",
             "Server",
             "Apache/2.4.41 (Ubuntu)",
             "Content-Security-Policy",
@@ -56,15 +48,15 @@
             "X-RateLimit-Limit",
             "100",
             "X-RateLimit-Remaining",
-            "99",
+            "55",
             "X-RateLimit-Reset",
-            "1669149059",
+            "1669155059",
             "Content-Type",
             "application/json; charset=utf-8",
             "Content-Length",
-            "260",
+            "134",
             "ETag",
-            "W/\"104-jNjsLom97rEwIuAO0gi264FS+6M\"",
+            "W/\"86-I7v5qLZewBm6kqSZlRMWqSKHi1k\"",
             "Connection",
             "close"
         ],
