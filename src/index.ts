@@ -1,4 +1,4 @@
-import axios from 'axios';
+const axios = require('axios');
 
 export async function books(): Promise<any> {
   const result = await axios.get('https://the-one-api.dev/v2/book');
